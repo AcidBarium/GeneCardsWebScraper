@@ -33,9 +33,11 @@ pip install selenium deep-translator beautifulsoup4 pandas
 ```
 
 ## 项目驱动
-- 里面包含了一个Linux的项目驱动文件，详情见上文项目文件说明的geckodriver.exe。
+- 里面包含了一个windows的项目驱动文件，详情见上文项目文件说明的geckodriver.exe。
 
 - 确保 GeckoDriver 已正确安装并位于系统的 PATH 中，或使用 GeckoDriver 可执行文件的正确路径更新脚本
+
+- 你可能还需要一个最新版的火狐浏览器
 
 
 ## 运行脚本
