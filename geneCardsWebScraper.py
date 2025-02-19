@@ -3,16 +3,20 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from deep_translator import GoogleTranslator
+# from deep_translator import DeeplTranslator
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
 import csv
 
 
+    
+
 # 爬虫的主要功能
 def scrape_gene_summaries(gene):
     # 在函数内部创建新的WebDriver服务
-    webdriver_service = Service('D:\\浏览器\\geckodriver-v0.35.0-win64\\geckodriver.exe')  # 替换为你的GeckoDriver路径
+    webdriver_service = Service('./geckodriver.exe')  # 替换为你的GeckoDriver路径
     options = webdriver.FirefoxOptions()
     options.add_argument('--headless')  # 无头模式
     driver = webdriver.Firefox(service=webdriver_service, options=options)
@@ -62,11 +66,11 @@ def scrape_gene_summaries(gene):
 
 
 def main():
-    gene_list = pd.read_csv('D:\\github\\gene\\GeneSumCrawler-main\\GeneSumCrawler-main\\genelist.csv').iloc[:, 0].tolist()
+    gene_list = pd.read_csv('./genelist.csv').iloc[:, 0].tolist()
     total_genes = len(gene_list)
 
     # 打开 CSV 文件并写入标题行
-    with open('D:\\github\\gene\\GeneSumCrawler-main\\GeneSumCrawler-main\\gene_summaries.csv', 'w', newline='', encoding='utf-8') as file:
+    with open('./gene_summaries.csv', 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(['Gene', 'Summary'])
 
@@ -74,7 +78,7 @@ def main():
         gene_data = scrape_gene_summaries(gene)
         if gene_data:
             # 将数据写入到 CSV 文件的一行中
-            with open('D:\\github\\gene\\GeneSumCrawler-main\\GeneSumCrawler-main\\gene_summaries.csv', 'a', newline='', encoding='utf-8') as file:
+            with open('./gene_summaries.csv', 'a', newline='', encoding='utf-8') as file:
                 writer = csv.writer(file)
                 writer.writerow([gene_data['gene'], 
                                  "NCBI Gene Summary"  + "   :   "  +   gene_data['NCBI Gene Summary'] + "   \n \n  " +
@@ -83,8 +87,37 @@ def main():
             print(f"Progress: {index}/{total_genes} genes processed. Gene '{gene}' summaries fetched.")
         else:
             print(f"Progress: {index}/{total_genes} genes processed. No summaries found for gene '{gene}'.")
+    
+    
+    
+    print("处理完毕,文件保存到了gene_summaries.csv.")
+    print("开始翻译")
+    
 
-    print("Data scraping complete. Data saved to gene_summaries.csv.")
+    # api_key_ = '77893326-5985-42b5-9119-f3ab0d456f13:fx'  #如果用deepl翻译的话需要这个api
+
+    data = pd.read_csv("./gene_summaries.csv", encoding='utf-8')   # 这个地方放文件路径
+    rows, columns = data.shape
+
+    data['翻译结果'] = ""  
+
+    for i in range(rows):
+        print(f"正在{i + 1}/{rows}")
+        value = data.iloc[i, 1]  
+        value_str = str(value).strip()  
+        try:
+            # txt_after_translate = DeeplTranslator(api_key = api_key_,source='en', target='zh').translate(value_str)
+            txt_after_translate = GoogleTranslator(source='en', target='zh-CN').translate(value_str)
+            data.iloc[i, 2] = txt_after_translate  
+        except Exception as e:
+            print(f"翻译失败: {e}")  
+            data.iloc[i, 2] = "翻译失败"  
+
+    data.to_csv("./gene_summaries_afterTrans.csv", index=False, encoding='gbk')
+
+
+    print("翻译完毕,翻译文件保存到了gene_summaries_afterTrans.csv.")
+    
 
 
 if __name__ == "__main__":

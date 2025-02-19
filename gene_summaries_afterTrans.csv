@@ -1,0 +1,90 @@
+Gene,Summary,翻译结果
+LINC01770,"NCBI Gene Summary   :      
+ 
+  GeneCards Summary   :   LINC01770 (Long Intergenic Non-Protein Coding RNA 1770) is an RNA Gene, and is affiliated with the lncRNA class.   
+ 
+  UniProtKB/Swiss-Prot Summary   :   ","NCBI基因摘要：      
+ 
+  Genecards摘要：LINC01770（长基因间非蛋白质编码RNA 1770）是RNA基因，隶属于LNCRNA类。   
+ 
+  Uniprotkb/瑞士 - 普罗特摘要："
+VWA1,"NCBI Gene Summary   :   VWA1 belongs to the von Willebrand factor (VWF; MIM 613160) A (VWFA) domain superfamily of extracellular matrix proteins and appears to play a role in cartilage structure and function (Fitzgerald et al., 2002 [PubMed 12062410]).[supplied by OMIM, Nov 2010]   
+ 
+  GeneCards Summary   :   VWA1 (Von Willebrand Factor A Domain Containing 1) is a Protein Coding gene.
+Diseases associated with VWA1 include Neuronopathy, Distal Hereditary Motor, Autosomal Recessive 7 and Neuronopathy, Distal Hereditary Motor, Autosomal Recessive 5.
+Among its related pathways are Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs) and Metabolism of proteins.
+Gene Ontology (GO) annotations related to this gene include identical protein binding.
+An important paralog of this gene is COL12A1.   
+ 
+  UniProtKB/Swiss-Prot Summary   :   Promotes matrix assembly (By similarity). Involved in the organization of skeletal muscles and in the formation of neuromuscular junctions (Probable).
+                (
+VWA1_HUMAN,Q6PCB0                )","NCBI基因摘要：VWA1属于von Willebrand因子（VWF； MIM 613160）A（VWFA）A（VWFA）域超家族的超家族超家族，似乎在软骨结构和功能中起作用（Fitzgerald等人，Fitzgerald等，2002 [PubMed 12062410]） 。[由Omim提供，2010年11月]   
+ 
+  Genecards摘要：VWA1（Von Willebrand因子A含有1个域）是蛋白质编码基因。
+与VWA1相关的疾病包括神经疾病，遗传性远端运动，常染色体隐性7和神经疾病，远端遗传运动，常染色体隐性膜膜膜5。
+其相关途径包括胰岛素样生长因子结合蛋白（IGFBP）和蛋白质的代谢来调节胰岛素样生长因子（IGF）转运和摄取。
+与该基因相关的基因本体论（GO）注释包括相同的蛋白质结合。
+该基因的一个重要旁系同源物是Col12a1。   
+ 
+  Uniprotkb/瑞士 - 促销摘要：促进矩阵组装（通过相似性）。参与骨骼肌的组织和神经肌肉连接的形成（可能）。
+                （（
+vwa1_human，q6pcb0）"
+ATAD3C,"NCBI Gene Summary   :   Predicted to enable ATP binding activity and ATP hydrolysis activity. Predicted to be involved in mitochondrion organization. Located in mitochondrion. [provided by Alliance of Genome Resources, Nov 2024]   
+ 
+  GeneCards Summary   :   ATAD3C (ATPase Family AAA Domain Containing 3C) is a Protein Coding gene.
+Diseases associated with ATAD3C include Chromosome 1P36.33 Duplication Syndrome, Atad3 Gene Cluster, Autosomal Dominant and Harel-Yoon Syndrome.
+Among its related pathways is 1p36 copy number variation syndrome.
+Gene Ontology (GO) annotations related to this gene include four-way junction helicase activity.
+An important paralog of this gene is ATAD3B.   
+ 
+  UniProtKB/Swiss-Prot Summary   :   ","NCBI基因摘要：预测可以实现ATP结合活性和ATP水解活性。预计将参与线粒体组织。位于线粒体。 [由基因组资源联盟提供，2024年11月]   
+ 
+  Genecards摘要：ATAD3C（ATPase家族AAA结构域包含3C）是蛋白质编码基因。
+与ATAD3C相关的疾病包括1P36.33染色体综合征，ATAD3基因簇，常染色体显性症和Harel Yoon综合征。
+其相关途径包括1P36拷贝数变化综合征。
+与该基因相关的基因本体学（GO）注释包括四向连接旋酶活性。
+该基因的一个重要旁系同源物是ATAD3B。   
+ 
+  Uniprotkb/瑞士 - 普罗特摘要："
+ATAD3B,"NCBI Gene Summary   :   The protein encoded by this gene is localized to the mitochondrial inner membrane, where it can bind to a highly-related protein, ATAD3A. ATAD3A appears to interact with matrix nucleoid complexes, and the encoded protein negatively regulates that interaction. This gene is expressed almost exclusively in pluripotent embryonic stem cells and some cancer cells. Two transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Nov 2015]   
+ 
+  GeneCards Summary   :   ATAD3B (ATPase Family AAA Domain Containing 3B) is a Protein Coding gene.
+Diseases associated with ATAD3B include Chromosome 1P36.33 Duplication Syndrome, Atad3 Gene Cluster, Autosomal Dominant and Mitochondrial Disease.
+Among its related pathways are Innate Immune System and 1p36 copy number variation syndrome.
+
+An important paralog of this gene is ATAD3A.   
+ 
+  UniProtKB/Swiss-Prot Summary   :   May play a role in a mitochondrial network organization typical for stem cells, characterized by reduced mitochondrial metabolism, low mtDNA copies and fragmentated mitochondrial network. May act by suppressing ATAD3A function, interfering with ATAD3A interaction with matrix nucleoid complexes.
+                (
+ATD3B_HUMAN,Q5T9A4                )","NCBI基因摘要：该基因编码的蛋白质位于线粒体内膜，在那里它可以与高度相关的蛋白ATAD3A结合。 ATAD3A似乎与基质核苷配合物相互作用，并且编码的蛋白质对这种相互作用进行负调节。该基因几乎完全在多能胚胎干细胞和一些癌细胞中表达。为此基因发现了两个编码不同同工型的转录物变体。 [RefSeq，2015年11月提供]   
+ 
+  Genecards摘要：ATAD3B（ATPase家族AAA结构域包含3B）是蛋白质编码基因。
+与ATAD3B相关的疾病包括1P36.33染色体综合征，ATAD3基因簇，常染色体显性症和线粒体疾病。
+其相关途径包括先天免疫系统和1P36拷贝数变化综合征。
+
+该基因的一个重要副产品是ATAD3A。   
+ 
+  UniprotkB/瑞士 - 普罗特摘要：可能在干细胞的线粒体网络组织中起作用，其特征是线粒体代谢减少，低mtDNA拷贝和碎片的线粒体网络。可以通过抑制ATAD3A功能来起作用，从而干扰ATAD3A与基质核苷配合物的相互作用。
+                （（
+atd3b_human，Q5T9A4）"
+ATAD3A,"NCBI Gene Summary   :   This gene encodes a ubiquitously expressed mitochondrial membrane protein that contributes to mitochondrial dynamics, nucleoid organization, protein translation, cell growth, and cholesterol metabolism. This gene is a member of the ATPase family AAA-domain containing 3 gene family which, in humans, includes two other paralogs. Naturally occurring mutations in this gene are associated with distinct neurological syndromes including Harel-Yoon syndrome. High-level expression of this gene is associated with poor survival in breast cancer patients. A homozygous knockout of the orthologous gene in mice results in embryonic lethality at day 7.5 due to growth retardation and defective development of the trophoblast lineage. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Feb 2017]   
+ 
+  GeneCards Summary   :   ATAD3A (ATPase Family AAA Domain Containing 3A) is a Protein Coding gene.
+Diseases associated with ATAD3A include Pontocerebellar Hypoplasia, Hypotonia, And Respiratory Insufficiency Syndrome, Neonatal Lethal and Harel-Yoon Syndrome.
+Among its related pathways is 1p36 copy number variation syndrome.
+
+An important paralog of this gene is ATAD3B.   
+ 
+  UniProtKB/Swiss-Prot Summary   :   Essential for mitochondrial network organization, mitochondrial metabolism and cell growth at organism and cellular level (PubMed:17210950, 20154147, 22453275, 31522117, 37832546). May play an important role in mitochondrial protein synthesis (PubMed:22453275). May also participate in mitochondrial DNA replication (PubMed:17210950). May bind to mitochondrial DNA D-loops and contribute to nucleoid stability (PubMed:17210950). Required for enhanced channeling of cholesterol for hormone-dependent steroidogenesis (PubMed:22453275). Involved in mitochondrial-mediated antiviral innate immunity (PubMed:31522117). Also involved in the mitochondrial DNA damage response by promoting signaling between damaged genomes and the mitochondrial membrane, leading to activation of the integrated stress response (ISR) (PubMed:37832546).
+                (
+ATD3A_HUMAN,Q9NVI7                )","NCBI基因摘要：该基因编码一个普遍表达的线粒体膜蛋白，该蛋白有助于线粒体动力学，核苷组织，蛋白质翻译，细胞生长和胆固醇代谢。该基因是ATPase家族AAA域的成员，其中包含3个基因家族，在人类中，其中包括另外两个旁系同源物。该基因中天然发生的突变与包括Harel Yoon综合征在内的不同神经系统综合征有关。该基因的高级表达与乳腺癌患者的生存不良有关。小鼠直系同源基因的纯合敲除导致第7.5天的胚胎致死性，这是由于生长迟缓和滋养细胞谱系的有缺陷的发展。替代剪接会导致多个转录物变体。 [由RefSeq提供，2017年2月]   
+ 
+  Genecards摘要：ATAD3A（ATPase家族AAA域3A）是蛋白质编码基因。
+与ATAD3A相关的疾病包括pontocrebellar发育不全，低调和呼吸道功能不全综合征，新生儿致死性和Harel-Yoon综合征。
+其相关途径包括1P36拷贝数变化综合征。
+
+该基因的一个重要旁系同源物是ATAD3B。   
+ 
+  UniprotkB/瑞士 - 普罗特摘要：线粒体网络组织，有机体和细胞水平的线粒体网络组织，线粒体代谢和细胞生长（PubMed：17210950，20154147，20453275，22453275，31522117，3782546）。可能在线粒体蛋白合成中起重要作用（PubMed：22453275）。也可以参与线粒体DNA复制（PubMed：17210950）。可以与线粒体DNA D环结合并有助于核苷稳定性（PubMed：17210950）。增强胆固醇的胆固醇依赖性类固醇生成所需（PubMed：22453275）。参与线粒体介导的抗病毒先天免疫（PubMed：31522117）。还通过促进受损基因组和线粒体膜之间的信号传导，参与线粒体DNA损伤响应，从而导致综合应力响应（ISR）激活（PubMed：37832546）。
+                （（
+atd3a_human，q9nvi7）"
