@@ -2,7 +2,7 @@ import pandas as pd
 from deep_translator import GoogleTranslator
 # from deep_translator import DeeplTranslator
 
-# api_key_ = '77893326-5985-42b5-9119-f3ab0d456f13:fx'          #这里放deepl的api
+# api_key_ = 'kFc-cRazY-tHuRsdAy-VWo50:fx'          #deepl翻译的话需要这个api,当然是你自己的api
 
 
 data = pd.read_csv("./gene_summaries.csv", encoding='utf-8')   # 这个地方放文件路径
