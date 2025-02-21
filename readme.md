@@ -37,7 +37,7 @@ pip install selenium deep-translator beautifulsoup4 pandas
 
 - 确保 GeckoDriver 已正确安装并位于系统的 PATH 中，或使用 GeckoDriver 可执行文件的正确路径更新脚本
 
-- 你可能还需要一个最新版的火狐浏览器
+- 你可能还需要一个最新版的火狐浏览器(感谢[kpmark](https://github.com/markzhang12345)，他写了一个edge浏览器的版本)
 
 
 ## 运行脚本
@@ -52,7 +52,7 @@ python geneCardsWebScraper.py
 
 ## 鸣谢
 
-[marswh12312313](https://github.com/marswh12312313)
+[marswh12312313](https://github.com/marswh12312313)，[kpmark](https://github.com/markzhang12345)
 
 
 ## 联系方式
