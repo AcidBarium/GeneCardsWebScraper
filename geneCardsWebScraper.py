@@ -163,7 +163,9 @@ def model_sel():
 def main():
     
     opt, opt2, api_key_ = model_sel()
-        
+    
+    print("程序正在进行，请稍候。。。")
+    
     gene_list = pd.read_csv('./genelist.csv').iloc[:, 0].tolist()
     total_genes = len(gene_list)
 
