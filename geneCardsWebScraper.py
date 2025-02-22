@@ -123,25 +123,25 @@ def scrape_gene_summaries_edge(gene):
     return summaries
 
 
-
 def model_sel():
     
     print("请选择驱动浏览器")
     print("使用Microsorft Edge浏览器请输入edge")
     print("使用火狐浏览器请输入firefox")
     
-    opt = input("请输入 'edge' 或 'firefox':")
+    opt = input("请输入 'edge' 或 'firefox': ")
     
     while opt != "edge" and opt != "firefox":
-        opt = input("输入错误，请重新输入'edge' 或 'firefox':")
+        opt = input("输入错误，请重新输入'edge' 或 'firefox': ")
         
     if opt == "edge" :
         print("目前的选项为edge")
     elif opt == "firefox" :
         print("目前的选项为firefox")
+    print("\n")
         
     print("请选择需要的翻译引擎")
-    print("使用谷歌翻译，请输入google \n 使用deepl翻译请输入deepl")
+    print("使用谷歌翻译，请输入google \n使用deepl翻译请输入deepl")
     
     opt2 = input("请输入 : ")
     
@@ -154,7 +154,7 @@ def model_sel():
         print("目前的选项为谷歌翻译")
     elif opt2 == "deepl" :
         print("目前的选项为deepl翻译")
-        api_key_ = input("请输入api")
+        api_key_ = input("请输入api: ")
         
     return opt , opt2 , api_key_
 
