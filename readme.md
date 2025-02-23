@@ -2,7 +2,9 @@
 
 ## 介绍
 
-帮助中国医学生从genecards找到相关基因的相关信息，并进行一个简单的翻译操作
+帮助中国医学生从genecards找到相关基因的相关信息，并进行一个简单的翻译操作。
+
+如果你并不太关心代码，只是想使用里面的功能，你可以看这个[使用说明](https://www.cnblogs.com/acidbarium/p/18731876).
 
 
 ## 项目修改说明
@@ -21,11 +23,14 @@
 ## 项目文件说明
 
 - geneCardsWebScraper是主程序，包含了爬虫和翻译，直接运行即可。
-- geckodriver.exe来自于[GeckoDriver Releases](https://github.com/mozilla/geckodriver/releases),原仓库中为linux下的文件，考虑到中国大多数医学生使用的是windows操作系统，这里进行了一个更替。如果你使用的是mac或者linux，你仍然可以在[GeckoDriver Releases](https://github.com/mozilla/geckodriver/releases)选择适合你的版本。
+- geckodriver.exe是项目的火狐浏览器驱动，来自于[GeckoDriver Releases](https://github.com/mozilla/geckodriver/releases),原仓库中为linux下的文件，考虑到中国大多数医学生使用的是windows操作系统，这里进行了一个更替。如果你使用的是mac或者linux，你仍然可以在[GeckoDriver Releases](https://github.com/mozilla/geckodriver/releases)选择适合你的版本。
+- msedgedriver.exe是项目的edge浏览器驱动，来自[微软官方网站](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH)
 - trans和trans_deepl是单独摘出来的翻译代码
 - genelist.csv中放你需要查询的基因的名字
-- gene_summaries.csv爬取到的信息
-- gene_summaries_afterTrans.csv为翻译后的信息
+- gene_summaries.csv爬取到的信息（在程序运行完之后显示）
+- gene_summaries_afterTrans.csv为翻译后的信息（在程序运行完之后显示）
+- EdgeVersion 和FireFoxVersion 分别为两个不同驱动下的代码，在本项目根目录下的代码包含了以上两者的功能。
+
 
 ## 安装依赖项
 ```
@@ -33,11 +38,11 @@ pip install selenium deep-translator beautifulsoup4 pandas
 ```
 
 ## 项目驱动
-- 里面包含了一个windows的项目驱动文件，详情见上文项目文件说明的geckodriver.exe。
+- 里面包含了一个windows的项目驱动文件，详情见上文项目文件说明的geckodriver.exe和msedgedriver.exe。
 
-- 确保 GeckoDriver 已正确安装并位于系统的 PATH 中，或使用 GeckoDriver 可执行文件的正确路径更新脚本
+- 确保 GeckoDriver 已正确安装并位于系统的 PATH 中，或使用 GeckoDriver或者msedgedriver可执行文件的正确路径更新脚本
 
-- 你可能还需要一个最新版的火狐浏览器(感谢[kpmark](https://github.com/markzhang12345)，他写了一个edge浏览器的版本)
+- 你可能还需要一个最新版的火狐浏览器或者edge浏览器(感谢[kpmark](https://github.com/markzhang12345)，他写了一个edge浏览器的版本)
 
 
 ## 运行脚本
@@ -52,7 +57,7 @@ python geneCardsWebScraper.py
 
 ## 鸣谢
 
-[marswh12312313](https://github.com/marswh12312313)，[kpmark](https://github.com/markzhang12345)
+[marswh12312313](https://github.com/marswh12312313)，[kpmark](https://github.com/markzhang12345)和他精美的网站[安全的链接](http://60.205.131.158/blog/)
 
 
 ## 联系方式
