@@ -57,7 +57,13 @@ python geneCardsWebScraper.py
 
 ## 鸣谢
 
-[marswh12312313](https://github.com/marswh12312313)，[kpmark](https://github.com/markzhang12345)和他精美的网站[安全的链接](http://60.205.131.158/blog/)
+[marswh12312313](https://github.com/marswh12312313)，[kpmark](https://github.com/markzhang12345)
+
+
+## 贡献者名单
+<a href="https://github.com/AcidBarium/GeneCardsWebScraper/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AcidBarium/GeneCardsWebScraper" />
+</a>
 
 
 ## 联系方式
