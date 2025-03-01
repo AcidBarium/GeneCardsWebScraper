@@ -1,7 +1,7 @@
 import requests
 
 def query_model(prompt):
-    url = "http://192.168.31.70:1234/v1/chat/completions"  
+    url = "http://192.168.31.70:1234/v1/chat/completions"       ## 这里放本地deepseek的端口
     headers = {
         "Content-Type": "application/json"
     }
