@@ -29,7 +29,8 @@
 - genelist.csv中放你需要查询的基因的名字
 - gene_summaries.csv爬取到的信息（在程序运行完之后显示）
 - gene_summaries_afterTrans.csv为翻译后的信息（在程序运行完之后显示）
-- EdgeVersion 和FireFoxVersion 分别为两个不同驱动下的代码，在本项目根目录下的代码包含了以上两者的功能。
+- EdgeVersion文件夹 和FireFoxVersion文件夹 分别为两个不同驱动下的代码，在本项目根目录下的代码包含了以上两者的功能。
+- deepseek文件夹为使用deepseek进行翻译的代码集合，考虑到受众较小，目前暂不提供与主代码合并的服务。如果有使用更高级的翻译需求，可以在该文件夹中看到相应的操作说明。
 
 
 ## 安装依赖项
