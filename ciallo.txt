@@ -1,0 +1,12 @@
+请将下面医学相关的英语翻译成中文，要求术语准确，数据无误，深入理解原文的语境和医学逻辑，避免因误解导致的翻译错误，语言流畅，逻辑清晰，风格一致。不要使用markdown格式，直接以文本的形式回答 。 不要说任何多余的话，只需要告诉我翻译的结果。不要说任何多余的话，只需要告诉我翻译的结果。 
+NCBI Gene Summary   :   This gene encodes a ubiquitously expressed mitochondrial membrane protein that contributes to mitochondrial dynamics, nucleoid organization, protein translation, cell growth, and cholesterol metabolism. This gene is a member of the ATPase family AAA-domain containing 3 gene family which, in humans, includes two other paralogs. Naturally occurring mutations in this gene are associated with distinct neurological syndromes including Harel-Yoon syndrome. High-level expression of this gene is associated with poor survival in breast cancer patients. A homozygous knockout of the orthologous gene in mice results in embryonic lethality at day 7.5 due to growth retardation and defective development of the trophoblast lineage. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Feb 2017]   
+ 
+  GeneCards Summary   :   ATAD3A (ATPase Family AAA Domain Containing 3A) is a Protein Coding gene.
+Diseases associated with ATAD3A include Pontocerebellar Hypoplasia, Hypotonia, And Respiratory Insufficiency Syndrome, Neonatal Lethal and Harel-Yoon Syndrome.
+Among its related pathways is 1p36 copy number variation syndrome.
+
+An important paralog of this gene is ATAD3B.   
+ 
+  UniProtKB/Swiss-Prot Summary   :   Essential for mitochondrial network organization, mitochondrial metabolism and cell growth at organism and cellular level (PubMed:17210950, 20154147, 22453275, 31522117, 37832546). May play an important role in mitochondrial protein synthesis (PubMed:22453275). May also participate in mitochondrial DNA replication (PubMed:17210950). May bind to mitochondrial DNA D-loops and contribute to nucleoid stability (PubMed:17210950). Required for enhanced channeling of cholesterol for hormone-dependent steroidogenesis (PubMed:22453275). Involved in mitochondrial-mediated antiviral innate immunity (PubMed:31522117). Also involved in the mitochondrial DNA damage response by promoting signaling between damaged genomes and the mitochondrial membrane, leading to activation of the integrated stress response (ISR) (PubMed:37832546).
+                (
+ATD3A_HUMAN,Q9NVI7                )

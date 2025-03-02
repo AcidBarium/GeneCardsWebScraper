@@ -1,0 +1,48 @@
+Gene,Summary
+LINC01770,"NCBI Gene Summary   :      
+ 
+  GeneCards Summary   :   LINC01770 (Long Intergenic Non-Protein Coding RNA 1770) is an RNA Gene, and is affiliated with the lncRNA class.   
+ 
+  UniProtKB/Swiss-Prot Summary   :   "
+VWA1,"NCBI Gene Summary   :   VWA1 belongs to the von Willebrand factor (VWF; MIM 613160) A (VWFA) domain superfamily of extracellular matrix proteins and appears to play a role in cartilage structure and function (Fitzgerald et al., 2002 [PubMed 12062410]).[supplied by OMIM, Nov 2010]   
+ 
+  GeneCards Summary   :   VWA1 (Von Willebrand Factor A Domain Containing 1) is a Protein Coding gene.
+Diseases associated with VWA1 include Neuronopathy, Distal Hereditary Motor, Autosomal Recessive 7 and Neuronopathy, Distal Hereditary Motor, Autosomal Recessive 5.
+Among its related pathways are Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs) and Metabolism of proteins.
+Gene Ontology (GO) annotations related to this gene include identical protein binding.
+An important paralog of this gene is COL12A1.   
+ 
+  UniProtKB/Swiss-Prot Summary   :   Promotes matrix assembly (By similarity). Involved in the organization of skeletal muscles and in the formation of neuromuscular junctions (Probable).
+                (
+VWA1_HUMAN,Q6PCB0                )"
+ATAD3C,"NCBI Gene Summary   :   Predicted to enable ATP binding activity and ATP hydrolysis activity. Predicted to be involved in mitochondrion organization. Located in mitochondrion. [provided by Alliance of Genome Resources, Nov 2024]   
+ 
+  GeneCards Summary   :   ATAD3C (ATPase Family AAA Domain Containing 3C) is a Protein Coding gene.
+Diseases associated with ATAD3C include Chromosome 1P36.33 Duplication Syndrome, Atad3 Gene Cluster, Autosomal Dominant and Harel-Yoon Syndrome.
+Among its related pathways is 1p36 copy number variation syndrome.
+Gene Ontology (GO) annotations related to this gene include four-way junction helicase activity.
+An important paralog of this gene is ATAD3B.   
+ 
+  UniProtKB/Swiss-Prot Summary   :   "
+ATAD3B,"NCBI Gene Summary   :   The protein encoded by this gene is localized to the mitochondrial inner membrane, where it can bind to a highly-related protein, ATAD3A. ATAD3A appears to interact with matrix nucleoid complexes, and the encoded protein negatively regulates that interaction. This gene is expressed almost exclusively in pluripotent embryonic stem cells and some cancer cells. Two transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Nov 2015]   
+ 
+  GeneCards Summary   :   ATAD3B (ATPase Family AAA Domain Containing 3B) is a Protein Coding gene.
+Diseases associated with ATAD3B include Chromosome 1P36.33 Duplication Syndrome, Atad3 Gene Cluster, Autosomal Dominant and Mitochondrial Disease.
+Among its related pathways are Innate Immune System and 1p36 copy number variation syndrome.
+
+An important paralog of this gene is ATAD3A.   
+ 
+  UniProtKB/Swiss-Prot Summary   :   May play a role in a mitochondrial network organization typical for stem cells, characterized by reduced mitochondrial metabolism, low mtDNA copies and fragmentated mitochondrial network. May act by suppressing ATAD3A function, interfering with ATAD3A interaction with matrix nucleoid complexes.
+                (
+ATD3B_HUMAN,Q5T9A4                )"
+ATAD3A,"NCBI Gene Summary   :   This gene encodes a ubiquitously expressed mitochondrial membrane protein that contributes to mitochondrial dynamics, nucleoid organization, protein translation, cell growth, and cholesterol metabolism. This gene is a member of the ATPase family AAA-domain containing 3 gene family which, in humans, includes two other paralogs. Naturally occurring mutations in this gene are associated with distinct neurological syndromes including Harel-Yoon syndrome. High-level expression of this gene is associated with poor survival in breast cancer patients. A homozygous knockout of the orthologous gene in mice results in embryonic lethality at day 7.5 due to growth retardation and defective development of the trophoblast lineage. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Feb 2017]   
+ 
+  GeneCards Summary   :   ATAD3A (ATPase Family AAA Domain Containing 3A) is a Protein Coding gene.
+Diseases associated with ATAD3A include Pontocerebellar Hypoplasia, Hypotonia, And Respiratory Insufficiency Syndrome, Neonatal Lethal and Harel-Yoon Syndrome.
+Among its related pathways is 1p36 copy number variation syndrome.
+
+An important paralog of this gene is ATAD3B.   
+ 
+  UniProtKB/Swiss-Prot Summary   :   Essential for mitochondrial network organization, mitochondrial metabolism and cell growth at organism and cellular level (PubMed:17210950, 20154147, 22453275, 31522117, 37832546). May play an important role in mitochondrial protein synthesis (PubMed:22453275). May also participate in mitochondrial DNA replication (PubMed:17210950). May bind to mitochondrial DNA D-loops and contribute to nucleoid stability (PubMed:17210950). Required for enhanced channeling of cholesterol for hormone-dependent steroidogenesis (PubMed:22453275). Involved in mitochondrial-mediated antiviral innate immunity (PubMed:31522117). Also involved in the mitochondrial DNA damage response by promoting signaling between damaged genomes and the mitochondrial membrane, leading to activation of the integrated stress response (ISR) (PubMed:37832546).
+                (
+ATD3A_HUMAN,Q9NVI7                )"

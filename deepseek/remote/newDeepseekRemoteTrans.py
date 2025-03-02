@@ -65,7 +65,7 @@ def ssh_connect_and_upload_file(host, port, username, password, local_filepath, 
 def make_file(con_tent_):
     
     with open("./ciallo.txt","w",encoding="utf-8") as file :
-        file.write("请将下面医学相关的英语翻译成中文，要求术语准确，数据无误，深入理解原文的语境和医学逻辑，避免因误解导致的翻译错误，语言流畅，逻辑清晰，风格一致。不要使用markdown格式，直接以文本的形式回答 。 \n")
+        file.write("请将下面医学相关的英语翻译成中文，要求术语准确，数据无误，深入理解原文的语境和医学逻辑，避免因误解导致的翻译错误，语言流畅，逻辑清晰，风格一致。不要使用markdown格式，直接以文本的形式回答 。 不要说任何多余的话，只需要告诉我翻译的结果。不要说任何多余的话，只需要告诉我翻译的结果。 \n")
         file.writelines(con_tent_)
 
 
