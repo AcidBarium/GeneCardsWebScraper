@@ -3,7 +3,8 @@ from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from deep_translator import GoogleTranslator
+import transModeFree
+# import transModeGoogle
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
@@ -97,26 +98,10 @@ def main():
     print("开始翻译")
 
     # api_key_ = ':fx'
-
     data = pd.read_csv("./gene_summaries.csv", encoding='utf-8')
-    rows, columns = data.shape
-    data['翻译结果'] = ""
-
-    for i in range(rows):
-        print(f"正在{i + 1}/{rows}")
-        value = data.iloc[i, 1]
-        value_str = str(value).strip()
-        try:
-            txt_after_translate = GoogleTranslator(
-                source='en', target='zh').translate(value_str)
-            data.iloc[i, 2] = txt_after_translate
-        except Exception as e:
-            print(f"翻译失败: {e}")
-            data.iloc[i, 2] = "翻译失败"
-
-    data.to_csv("./gene_summaries_afterTrans.csv",
-                index=False, encoding='utf-8')
-    print("翻译完毕,翻译文件保存到了gene_summaries_afterTrans.csv.")
+    # 根据需要选择合适的翻译函数
+    transModeFree.translate_text(data)  # 使用免费的国内翻译模式
+    # transModeGoogle.translate_text(data)  # 使用Google翻译模式
 
 
 if __name__ == "__main__":
