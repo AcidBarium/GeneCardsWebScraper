@@ -36,9 +36,9 @@ pip install selenium beautifulsoup4 pandas deep-translator
    - 将脚本中的 :fx 替换为您的实际 API 密钥
 
 > [!NOTE]
-> 此版本需要的网络环境较不稳定，edge 爬虫结果仅在国内网络环境下具有可靠的爬取效果，在代理环境下爬取结果**较不稳定**
+> 此版本需要的网络环境较不稳定，edge 爬虫结果仅在国内网络环境下具有可靠的爬取效果，在代理环境下爬取结果**极不稳定**
 >
-> 默认使用的谷歌翻译需要代理环境
+> 默认使用的网页翻译仅需国内网络环境，修改其他翻译函数如谷歌翻译需要代理环境
 
 ## 使用方法
 
@@ -52,6 +52,7 @@ python geneCardsWebScraper.py
 
 - `gene_summaries.csv`：包含原始英文摘要
 - `gene_summaries_afterTrans.csv`：包含英文摘要和中文翻译
+- `__pycache__`文件夹：模块临时文件，生成后加快速度
 
 ## 注意事项
 
