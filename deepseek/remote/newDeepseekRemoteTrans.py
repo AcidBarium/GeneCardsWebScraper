@@ -75,10 +75,10 @@ def trans_deepseek_remote(source) :
 
 
     # 使用示例
-    host = 'region-9.autodl.pro'        # 目标服务器地址
-    port = 17758                       # SSH 端口（默认是 22）
-    username = 'root'      # SSH 登录用户名
-    password = 'hwjKhBFWMbNX'      # SSH 登录密码
+    host = 'vivo.50'        # 目标服务器地址
+    port = 114514                       # SSH 端口（默认是 22）
+    username = 'crazy'      # SSH 登录用户名
+    password = 'Tuesday'      # SSH 登录密码
     command = 'bash -l /root/deepseek/chuli/部署.sh'               # 你要执行的命令
 
 
